@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.collections.FXCollections?>
+
+<StackPane  xmlns:fx="http://javafx.com/fxml/1">
+
+	<ComboBox>
+	
+	<items>
+	<FXCollections fx:factory="observableArrayList">
+	<String fx:value="김동규"/>
+	<Stirng fx:value="김가원"/>
+	</FXCollections>
+	
+	</items>
+	</ComboBox>
+	
+	
+	
+</StackPane>
+

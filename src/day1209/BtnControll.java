@@ -34,9 +34,11 @@ public class BtnControll implements Initializable {
 			
 			login.setTranslateX(350);
 			Timeline timeline = new Timeline(); // timeline 생성
-			KeyValue keyValue = new KeyValue(login.translateXProperty(),0); // //login의 
+			KeyValue keyValue = new KeyValue(login.translateXProperty(),0); // //login의 화면 350값을 0값까지 움직인다.
 			KeyFrame keyFrame = new KeyFrame(Duration.millis(100) , keyValue);
-			timeline.getKeyFrames().add(keyFrame);
+			//0.1초마다 keyValue를 실행시킨다.
+			
+			timeline.getKeyFrames().add(keyFrame); // 
 			timeline.play();
 			
 		} catch (Exception e) {
